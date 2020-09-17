@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- my custom CSS goes here-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Our Stories</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="information.html">Information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Book</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container-fluid">
+      <h1>Booklist</h1>
+        <table id="taskTable" class="table">
+            <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author(s)</th>
+              <th>Year published</th>
+              <th>Publisher</th>
+              <th>Page count</th>
+              <th>MSRP</th>
+            </thead>
+            <tbody>
+            </tr>
+            <tr>
+              <td>Harry Potter and the Sorcerer's Stone</td>
+              <td>J. K. Rowling</td>
+              <td>1997</td>
+              <td>Scholastic Corporation</td>
+              <td>309</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Chamber of Secrets</td>
+                <td>J. K. Rowling</td>
+                <td>1998</td>
+                <td>Scholastic Corporation</td>
+                <td>341</td>
+                <td>$10.99</td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Prisoner of Azkaban</td>
+                <td>J. K. Rowling</td>
+                <td>1999</td>
+                <td>Scholastic Corporation</td>
+                <td>435</td>
+                <td>$10.99</td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Goblet of Fire</td>
+                <td>J. K. Rowling</td>
+                <td>2000</td>
+                <td>Scholastic Corporation</td>
+                <td>734</td>
+                <td>$10.99</td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Order of the Phoenix</td>
+                <td>J. K. Rowling</td>
+                <td>2003</td>
+                <td>Scholastic Corporation</td>
+                <td>870</td>
+                <td>$10.99</td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Half-Blood Prince</td>
+                <td>J. K. Rowling</td>
+                <td>2005</td>
+                <td>Scholastic Corporation</td>
+                <td>652</td>
+                <td>$10.99</td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Deathly Hallows</td>
+                <td>J. K. Rowling</td>
+                <td>2007</td>
+                <td>Scholastic Corporation</td>
+                <td>759</td>
+                <td>$10.99</td>
+            </tr>
+            </tbody>
+        </table>
+    <br></br>
+      <form>
+        <div class="form-group">
+          <label for="Title">Title</label>
+          <input type="book name">
+        </div>
+        <div class="form-group">
+          <label for="Author name">Author(s)</label>
+          <input type="name">
+        </div>
+        <div class="form-group">
+            <label for="Year published">Year published</label>
+            <input type="year">
+        </div>
+        <div class="form-group">
+            <label for="Publisher">Publisher</label>
+            <input type="Publisher">
+        </div>
+        <div class="form-group">
+            <label for="Page count">Page count</label>
+            <input type="Number">
+        </div>
+        <div class="form-group">
+            <label for="MSRP">MSRP</label>
+            <input type="Dollar">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <script src="js/tablesort.min.js"></script>
+    <script>
+      // Table plugin from http://tristen.ca/tablesort/demo/
+      new Tablesort(document.getElementById('taskTable'));
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+  </body>
+</html>
+
+<!-- id have priority over class-->
+<!-- use # to assign id, use . to assign class -->

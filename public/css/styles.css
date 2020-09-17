@@ -1,0 +1,54 @@
+html,
+body {
+    background-color: rgb(43, 48, 71) ;
+    color: seashell;
+    font-family: cursive;
+}
+
+nav,
+.navbar{
+   background-color: rgb(0,20,120); 
+   color:aquamarine;
+}
+
+.center {
+    text-align: center;
+}
+
+table{
+    margin: 0.5em;
+    width: 290px;
+}
+
+th {
+    background-color: rgba(87, 11, 26, 0.603);
+    color:white;
+    padding: 2em;
+}
+
+td {
+    border: 1px solid rgb(126, 73, 131);
+    padding-left: .5em;
+    padding-right: .5em;
+    color:seashell;
+}
+
+form {
+    margin:20px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+#citation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    margin: 15px;
+}
+
+p {
+    margin:15px;
+    font-size: 24px;
+}
