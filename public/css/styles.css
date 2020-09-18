@@ -2,7 +2,7 @@ html,
 body {
     background-color: rgb(43, 48, 71) ;
     color: seashell;
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 nav,
@@ -51,4 +51,8 @@ label {
 p {
     margin:15px;
     font-size: 24px;
+}
+
+img {
+    margin: 15px;
 }

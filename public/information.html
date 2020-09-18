@@ -33,12 +33,15 @@
         </div>
       </nav>
     <div id="random" class="container-fluid">
-        <h1>Gryffindor</h1>
+        <h1>Information</h1>
         <p>Name: {{userName}}</p>
         <p>Country of origin: {{userCountry}}</p>
         <p>DOB: {{userDOB}}</p>
         <p>Age: {{userAge}}</p>
         <p>Email: <a href = "mailto: abc@example.com">{{userEmail}}</a></p>
+        <a v-bind:href="userImgLarge">
+          <img v-bind:src="userImgThumb">
+        </a>
         <br></br>
         <!----
         <p>Email address: <a href = "mailto: abc@example.com">Harrypotter@hogwarts.edu</a></p>
